@@ -1,0 +1,97 @@
+/* Header styles */
+header {
+  background-color: #f8f8f8; /* Change background color to match Nike's branding */
+  color: #000000; /* Change text color to black */
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 200px; /* Increase the logo size for better visibility */
+}
+
+header h1 {
+  font-size: 28px; /* Increase font size for better readability */
+}
+
+/* Product image styles */
+.product-image {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px; /* Round the corners of the product images */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.product-image:hover {
+  transform: translateY(-5px);
+}
+
+.product-name {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333333; /* Darken the text color for better contrast */
+}
+
+.product-price {
+  font-size: 16px;
+  color: #ff0000; /* Change price color to red */
+  font-weight: bold; /* Make price bold for emphasis */
+}
+
+.add-to-cart {
+  background-color: #ff0000; /* Change button color to red */
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #cc0000; /* Darken button color on hover */
+}
+
+/* Cart styles */
+.cart {
+  background-color: #f8f8f8; /* Match background color with header */
+  border: 1px solid #dddddd;
+  border-radius: 10px; /* Round the corners of the cart */
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.total-price {
+  font-weight: bold;
+  color: #333333; /* Darken the text color for better visibility */
+}
+
+.buy,
+.clear-cart {
+  background-color: #ff0000; /* Change button color to red */
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.buy:hover,
+.clear-cart:hover {
+  background-color: #cc0000; /* Darken button color on hover */
+}

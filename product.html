@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo1.png" alt="Logo" />
+      <a href="index.html">
+        <h1 id="intro">NIKE</h1>
+      </a>
+    </header>
+    <div class="product-container">
+      <div class="product-images">
+        <div class="product-image">
+          <img src="./images/nike2.png" alt="Nike Image" id="nike2" />
+          <p class="product-name">Nike Shoes 1</p>
+          <p class="product-price">$100</p>
+          <button class="add-to-cart" data-product="nike2">Add to Cart</button>
+        </div>
+        <div class="product-image">
+          <img src="./images/nike.png" alt="Nike Image" id="nike" />
+          <p class="product-name">Nike Shoes 2</p>
+          <p class="product-price">$120</p>
+          <button class="add-to-cart" data-product="nike">Add to Cart</button>
+        </div>
+        <div class="product-image">
+          <img src="./images/ju.png" alt="Ju Image" id="ju" />
+          <p class="product-name">Ju Shoes</p>
+          <p class="product-price">$80</p>
+          <button class="add-to-cart" data-product="ju">Add to Cart</button>
+        </div>
+        <div class="product-image">
+          <img src="./images/nike6.png" alt="Nike Image" id="nike6" />
+          <p class="product-name">Nike Shoes 3</p>
+          <p class="product-price">$150</p>
+          <button class="add-to-cart" data-product="nike6">Add to Cart</button>
+        </div>
+        <div class="product-image">
+          <img src="./images/nikeair.png" alt="Nike Air Image" id="nikeair" />
+          <p class="product-name">Nike Air Shoes</p>
+          <p class="product-price">$90</p>
+          <button class="add-to-cart" data-product="nikeair">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <div class="product-cart-items"></div>
+      <p>Total: <span class="total-price">$0</span></p>
+      <button class="buy">Buy</button>
+      <button class="clear-cart">Clear Cart</button>
+    </div>
+
+    <script src=".//js/product.js"></script>
+  </body>
+</html>
